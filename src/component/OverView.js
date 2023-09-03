@@ -2,7 +2,7 @@ import React from "react";
 
 const OverView = () => {
   return (
-    <div className="py-10 ">
+    <div className="py-[100px] ">
       <div className="flex flex-col justify-center items-center gap-5 px-10 sm:mt-0 mt-[50px]">
         <h1 className="font-bold text-[30px]">Who We Are</h1>
         <p className="font-semibold text-[15px] tracking-wider">

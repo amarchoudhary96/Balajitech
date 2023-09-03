@@ -26,6 +26,7 @@ function App() {
   };
 
   return (
+    <div className='w-full'>
     <BrowserRouter>
       <Navbar />
       
@@ -38,8 +39,9 @@ function App() {
         <Route path="/contact" element={<Contact />} />
       </Routes>
 
-      {/* {showPopup && <PopupForm onClose={closePopup} />} */}
+      {showPopup && <PopupForm onClose={closePopup} />}
     </BrowserRouter>
+    </div>
   );
 }
 

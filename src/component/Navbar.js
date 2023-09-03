@@ -94,23 +94,25 @@ const Navbar = () => {
           />
         </div>
       </div>
-
+  <div className="fixed w-full z-[999]">
       <div
-        className={`fixed z-[999] flex flex-col gap-5 px-[10px] sm:px-[80px] py-0 sm:py-10 shadow-2xl h-[70px] sm:h-[200px] bg-white w-full sm:flex-col sm:relative sm:justify-start ${
-          !sidebar ? "translate-x-0" : "-translate-x-full"
-        } cursor-pointer`}
+       className={`fixed z-[999] flex flex-col gap-5 px-[10px] sm:px-[80px] sm:py-2 shadow-2xl h-[70px] sm:h-[100%] bg-white w-full sm:flex-row sm:relative sm:justify-between sm:items-center ${
+  !sidebar ? "translate-x-0" : "-translate-x-full"
+} cursor-pointer`}
+
       >
-        <div className="flex gap-44 items-center w-[100px] sm:w-[180px] mt-2 sm:mt-0">
+        <div className="flex gap-44 items-center  mt-2 sm:mt-0">
           <img
             src="https://balajiwebtech.com/wp-content/uploads/2019/02/Balajiwebtech_mainlogo.png"
             alt=""
+            className="w-[100px] sm:w-[100px]"
           />
           <div className="text-[40px] ml-[50px] sm:hidden text-blue-500 animate__animated animate__pulse">
             <AiOutlineMenu onClick={handleSidebarToggle} />
           </div>
         </div>
 
-        <div className="hidden sm:flex gap-8 text-xm font-medium justify-end">
+        <div className="hidden sm:flex gap-8 text-xm font-medium justify-end items-center">
           <Link
             to={"/home"}
             onClick={() => {
@@ -158,6 +160,7 @@ const Navbar = () => {
             Get A Free Quote
           </button>
         </div>
+      </div>
       </div>
       {/* <Slider /> */}
     </div>

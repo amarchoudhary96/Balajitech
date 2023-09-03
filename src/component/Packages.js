@@ -3,7 +3,7 @@ import { BiRupee } from "react-icons/bi";
 import { Link } from "react-router-dom";
 const Packages = () => {
   return (
-    <div className="bg">
+    <div className="bg py-[100px]">
       <div className="flex flex-col items-center bg-gray-50">
         <h1 className="font-bold text-[30px]">Our Supportive Plans</h1>
         <hr />
