@@ -5,16 +5,18 @@ import Process from './Process'
 import Progressbar from './Progressbar'
 import Technologies from './Technologies'
 import Footer from './Footer'
+import Slider from './Slider'
 
 const Home = () => {
   return (
     <div>
+      <Slider/>
        <About/>
       <Services/>
-      {/* <Process/> */}
-      {/* <Progressbar/> */}
-      {/* <Technologies/> */}
-      {/* <Footer/> */}
+      <Process/>
+      <Progressbar/>
+      <Technologies/>
+      <Footer/>
     </div>
   )
 }

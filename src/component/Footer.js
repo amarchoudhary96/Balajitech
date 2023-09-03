@@ -7,10 +7,10 @@ const Footer = () => {
       <div className="flex flex-col gap-5 sm:w-[20%] w-[90%] items-start">
         <h1 className="font-bold text-[25px]">About</h1>
         <p className="text-[15px]">
-          Lаѕеr Web Mаkеr іѕ аn іnduѕtrу lеаdеr іn рrоfеѕѕіоnаl wеbѕіtе dеѕіgn,
+        Balaji Tech іѕ аn іnduѕtrу lеаdеr іn рrоfеѕѕіоnаl wеbѕіtе dеѕіgn,
           ѕtrаtеgу, dеvеlорmеnt, аnd hosting. Wе'rе trulу a оnе-ѕtор ѕhор
           оffеrіng a full rаngе оf ѕоlutіоnѕ for anyone lооkіng tо ѕuссееd in
-          thеіr оnlіnе еndеаvоrѕ. Laser Web Maker рrіvаtеlу hеld соmраnу wіth a
+          thеіr оnlіnе еndеаvоrѕ. Balaji Tech рrіvаtеlу hеld соmраnу wіth a
           lоng hіѕtоrу of рrоfіtаbіlіtу аnd ѕtаbіlіtу.....
         </p>
       </div>
@@ -29,7 +29,7 @@ const Footer = () => {
 Contact No.:-
  +91-8696702772, 7792946081, 7891689566
 Email:-
- info@laserwebmaker.com,</p>
+ info@BalajiTech.com,</p>
       </div>
     </div>
     <div>

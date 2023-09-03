@@ -23,9 +23,9 @@ const Contect = () => {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center mb-5    ">
-      <div className="mb-8 w-[413px] sm:w-full">
-        <img src="https://d22rxqj6e2v058.cloudfront.net/wp-content/uploads/2019/05/contact-us1.jpg" alt="" />
+    <div className="flex flex-col items-center justify-center mb-5  sm:pt-0 pt-[50px]  ">
+      <div className="mb-8 w-[390px] sm:w-full">
+        <img src="https://previews.123rf.com/images/nsit0108/nsit01081906/nsit0108190600415/124985905-contact-us-concept-banner-cartoon-illustration-of-contact-us-vector-concept-banner-for-web-design.jpg" alt="" />
       </div>
       <div className="text-center">
         <div className="mb-4">

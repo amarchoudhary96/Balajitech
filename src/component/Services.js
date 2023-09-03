@@ -35,7 +35,7 @@ const Services = () => {
   }, []);
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-300 shadow-2xl w-[400px] sm:w-full">
+    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-300 shadow-2xl w-[400px] sm:w-full pm:mt-0 pt-[100px]">
       <h1 className='sm:text-[40px] text-[25px] sm:w-[70%] w-[90%] font-bold flex justify-center'>Serving In Several Industries</h1>
       <p className='sm:text-[20px] text-[15px] w-[80%] font-semibold'>For your website to succeed, you required a team of creative designers, website developers . We are serving in several industries like Real Estate, Events Management, Travel & Hospitality, Social Networking, Education, Transport, Finance, Healthcare, E-Commerce, Food & Restaurant, etc.</p>
       <div id="service-section" className="max-w-screen-lg mx-auto p-6">
