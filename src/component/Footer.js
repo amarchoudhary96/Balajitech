@@ -25,7 +25,7 @@ const Footer = () => {
       <div className="flex flex-col gap-5 sm:w-[20%] w-[90%]  items-start">
         <h1 className="font-bold text-[25px]">CONTACT US</h1>
         <p>Address:-
- C-623, Tower C, Noida One Building, Sector 62, Noida UP-201301 (IN)
+ Near N.D GANGA SCHOOL KHAIRTHAL ALWAR RAJASTHAN (IN)
 Contact No.:-
  +91-8696702772, 7792946081, 7891689566
 Email:-
