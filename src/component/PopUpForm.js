@@ -32,7 +32,7 @@ function PopupForm({ onClose }) {
   return (
     <div className='relative'>
       <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 mt-[50px] ">
-        <div className="bg-white p-4 sm:px-8 sm:py-3 rounded-md shadow-lg w-[70%] sm:w-[60%] md:w-[60%] lg:w-[40%] xl:w-[30%] h-[70%] sm:h-[90%] md:h-[90%] lg:h-[90%] xl:h-[90%] relative">
+        <div className="bg-white p-4 sm:px-8 sm:py-3 rounded-md shadow-lg w-[80%] sm:w-[30%]   h-[75%] sm:h-[85%]  relative">
           <RxCross2 className='absolute top-2 right-2 text-[24px] cursor-pointer' onClick={onClose} />
           <form onSubmit={handleSubmit} className="gap-1">
             <div className="sm:mb-2">

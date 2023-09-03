@@ -102,11 +102,11 @@ const Navbar = () => {
 
       >
         <div className="flex gap-44 items-center  mt-2 sm:mt-0">
-          <img
+        <Link to={"/home"}>  <img
             src="https://balajiwebtech.com/wp-content/uploads/2019/02/Balajiwebtech_mainlogo.png"
             alt=""
-            className="w-[100px] sm:w-[100px]"
-          />
+            className="w-[100px] sm:w-[100px]" 
+          /></Link>
           <div className="text-[40px] ml-[50px] sm:hidden text-blue-500 animate__animated animate__pulse">
             <AiOutlineMenu onClick={handleSidebarToggle} />
           </div>

@@ -3,14 +3,14 @@ import { BiRupee } from "react-icons/bi";
 import { Link } from "react-router-dom";
 const Packages = () => {
   return (
-    <div className="bg py-[100px]">
+    <div className="bg py-[100px] w-full">
       <div className="flex flex-col items-center bg-gray-50">
         <h1 className="font-bold text-[30px]">Our Supportive Plans</h1>
         <hr />
       </div>
-      <div className="grid sm:grid-cols-3 grid-cols-2">
+      <div className="grid sm:grid-cols-3 grid-cols-2 sm:px-10 px-4">
       <div className="flex flex-col items-center gap-5 mx-5 my-5 py-10 sm:w-[60%] w-[90%] sm:border sm:rounded-3xl">
-        <h1 className="flex justify-center items-center  sm:w-[200px] sm:h-[100px] w-[170px] h-[100px] bg-black text-white text-[40px]">
+        <h1 className="flex justify-center items-center  sm:w-[200px] sm:h-[100px] w-[150px] h-[100px] bg-black text-white text-[40px]">
           <BiRupee /> 4999
         </h1>
         <div className="flex flex-col gap-2 text-[15px] font-semibold">
@@ -46,7 +46,7 @@ const Packages = () => {
       </div>
       
       <div className="flex flex-col items-center gap-5 mx-5 my-5 py-10 sm:w-[60%] w-[90%] sm:border sm:rounded-3xl">
-        <h1 className="flex justify-center items-center  sm:w-[200px] sm:h-[100px] w-[170px] h-[100px] bg-black text-white text-[40px]">
+        <h1 className="flex justify-center items-center  sm:w-[200px] sm:h-[100px] w-[150px] h-[100px] bg-black text-white text-[40px]">
           <BiRupee /> 9999
         </h1>
         <div className="flex flex-col gap-2 text-[15px] font-semibold">
