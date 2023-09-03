@@ -32,15 +32,13 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />
-        <Route path="/company-overview" element={<OverView />} />
+        <Route path="/companyoverview" element={<OverView />} />
         <Route path="/packages" element={<Packages />} />
         <Route path="/services" element={<Services />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
-      
-      <Footer />
 
-      {showPopup && <PopupForm onClose={closePopup} />}
+      {/* {showPopup && <PopupForm onClose={closePopup} />} */}
     </BrowserRouter>
   );
 }

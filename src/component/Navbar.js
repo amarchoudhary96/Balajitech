@@ -22,8 +22,8 @@ const Navbar = () => {
       >
         <div className="flex flex-col gap-4 px-8 text-[20px] font-medium py-5 mt-5 relative">
           <img
-            src="https://d22rxqj6e2v058.cloudfront.net/wp-content/uploads/2019/08/cropped-cropped-cropped-logo1-300x501-1-1.png"
-            className="w-[250px]"
+            src="https://balajiwebtech.com/wp-content/uploads/2019/02/Balajiwebtech_mainlogo.png"
+            className="sm:w-[250px] w-[100px]"
             alt=""
           />
           <Link
@@ -36,7 +36,7 @@ const Navbar = () => {
           </Link>
 
           <Link
-            to="/Company OverView"
+            to="/Company-OverView"
             onClick={() => {
               setSidebar(false);
             }}
@@ -121,7 +121,7 @@ const Navbar = () => {
           </Link>
 
           <Link
-            to={"/Company OverView"}
+            to={"/Company-OverView"}
             onClick={() => {
               setSidebar(false);
             }}
