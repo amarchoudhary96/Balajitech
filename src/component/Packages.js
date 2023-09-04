@@ -8,8 +8,9 @@ const Packages = () => {
         <h1 className="font-bold text-[30px]">Our Supportive Plans</h1>
         <hr />
       </div>
-      <div className="grid sm:grid-cols-3 grid-cols-2 sm:px-10 px-4">
-      <div className="flex flex-col items-center gap-5 mx-5 my-5 py-10 sm:w-[60%] w-[90%] sm:border sm:rounded-3xl">
+      <div className="flex justify-center items-center">
+      <div className="grid sm:grid-cols-3 grid-cols-2 sm:px-10 px-4 sm:gap-32">
+      <div className="flex flex-col items-center justify-center  gap-5 mx-5 my-5 py-10 sm:w-[100%] w-[90%] sm:border sm:rounded-3xl">
         <h1 className="flex justify-center items-center  sm:w-[200px] sm:h-[100px] w-[150px] h-[100px] bg-black text-white text-[40px]">
           <BiRupee /> 4999
         </h1>
@@ -45,7 +46,7 @@ const Packages = () => {
         </div>
       </div>
       
-      <div className="flex flex-col items-center gap-5 mx-5 my-5 py-10 sm:w-[60%] w-[90%] sm:border sm:rounded-3xl">
+      <div className="flex flex-col items-center gap-5 mx-5 my-5 py-10 sm:w-[100%] w-[90%] sm:border sm:rounded-3xl">
         <h1 className="flex justify-center items-center  sm:w-[200px] sm:h-[100px] w-[150px] h-[100px] bg-black text-white text-[40px]">
           <BiRupee /> 9999
         </h1>
@@ -82,7 +83,7 @@ const Packages = () => {
       </div>
 
 
-      <div className="flex flex-col items-center gap-5 mx-5 my-5 py-10 sm:w-[60%] w-[90%] sm:border sm:rounded-3xl">
+      <div className="flex flex-col items-center gap-5 mx-5 my-5 py-10 sm:w-[100%] w-[90%] sm:border sm:rounded-3xl">
         <h1 className="flex justify-center items-center sm:w-[200px] sm:h-[100px] w-[170px] h-[100px] bg-black text-white text-[40px]">
           <BiRupee /> 19999
         </h1>
@@ -118,12 +119,8 @@ const Packages = () => {
         </div>
       </div>
       </div>
-      <div className="flex justify-center items-center py-5 px-5 w-[250px] font-bold sm:ml-[500px] ml-[80px] mb-10 rounded-3xl   bg-blue-600">
-
-      <Link to="/home">
-  <button className="w-[150px]">Back To Home</button>
-</Link>
       </div>
+     
     </div>
   );
 };

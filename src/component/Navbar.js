@@ -89,7 +89,7 @@ const Navbar = () => {
             <h1>+91 8696702772</h1>
           </div>
           <RxCross2
-            className="absolute top-0 left-[340px] text-[45px] mt-4"
+            className="absolute top-0  left-[340px]  text-[40px] mt-4"
             onClick={handleSidebarToggle}
           />
         </div>
@@ -162,7 +162,6 @@ const Navbar = () => {
         </div>
       </div>
       </div>
-      {/* <Slider /> */}
     </div>
   );
 };
