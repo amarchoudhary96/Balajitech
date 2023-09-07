@@ -2,7 +2,7 @@ import React from 'react';
 
 const About = () => {
   return (
-    <div className='sm:flex sm:flex-row sm:items-center flex flex-col items-center bg-gray-50 p-8 w-full sm:w-full sm:mt-0 mt-[50px] line-[32px] font-[400] '>
+    <div className='sm:flex sm:flex-row sm:items-center flex flex-col items-center gap-2 bg-gray-100 p-8 w-full sm:w-full sm:mt-0 mt-[50px] line-[32px] font-[400] '>
       <div className='flex flex-col gap-5 sm:w-[80%] py-3 text-justify font-serif  '>
         <h1 className='sm:text-4xl text-2xl font-bold'>BALAJI TECH.IN</h1>
         <p className='font-[400] text-justify font-serif leading-loose'>
@@ -15,7 +15,7 @@ const About = () => {
           Our team never makes false promises at the time of project discussion. Building long-term relationships with our clients is <strong>Balaji Tech’s No.1 priority. 95% </strong>  of our customers return to us with new projects because they enjoy the quality of the websites that we create.
         </p>
       </div>
-      <div className='sm:w-[1000px] w-[350px]'>
+    <div className='sm:w-[900px] w-[350px]'>
         <img src="https://www.nicepng.com/png/detail/252-2527581_expert-web-application-developers-gif-animation-web-designer.png" alt="Laser Web Maker" />
       </div>
     </div>
