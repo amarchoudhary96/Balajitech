@@ -1,0 +1,17 @@
+/* Define animation keyframes */
+@keyframes animate-background {
+        0% {
+          background-position: 0% 0%;
+        }
+        100% {
+          background-position: 100% 0%;
+        }
+      }
+      
+      /* Apply animation to an element */
+      .animated-background {
+        background: linear-gradient(45deg, #f06, #9f6) fixed;
+        background-size: 200% 200%;
+        animation: animate-background 10s linear infinite;
+      }
+      

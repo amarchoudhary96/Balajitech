@@ -1,18 +1,34 @@
-import React from "react";
+import React, { useState } from "react";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // Import carousel styles
 import { Carousel } from "react-responsive-carousel";
 import { Link } from "react-router-dom";
+import './style/style.css'; // Import your CSS file
+
 
 const Slider = () => {
+  const [isHovered, setIsHovered] = useState(false);
+
+  const handleMouseEnter = () => {
+    setIsHovered(true);
+  };
+
+  const handleMouseLeave = () => {
+    setIsHovered(false);
+  };
   return (
+    <div className={`relative ${isHovered ? "animated-background" : ""}`}>
+
     <Carousel
       infiniteLoop={true}
       autoPlay={true}
       interval={6000}
-      className="pt-[80px]"
+      className="pt-[80px]  "
       showThumbs={false} // Add this line to hide the thumbnails
+      stopOnHover={true} // Enable stopOnHover
+      onMouseEnter={handleMouseEnter}
+      onMouseLeave={handleMouseLeave}
     >
-      <div className="flex sm:flex-row flex-col sm:justify-evenly  w-full  sm:px-10 px-2 gap-5 sm:py-10 py-12 ">
+      <div className="flex sm:flex-row flex-col sm:justify-evenly  w-full  sm:px-10 px-2 gap-5 sm:py-10  ">
         <div className="flex flex-col justify-between  sm:items-start items-center  font-sans gap-5   sm:px-[15px] sm:py-[85px] py-10 sm:pb-10">
           <div className="flex flex-col sm:items-start    w-full ">
             <h1 className="text-[#faa036] sm:text-[75px] font-bold font-sans text-[35px]    ">
@@ -117,6 +133,7 @@ const Slider = () => {
         />
       </div> */}
     </Carousel>
+    </div>
   );
 };
 
