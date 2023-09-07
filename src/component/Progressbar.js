@@ -19,7 +19,7 @@ const Progressbar = () => {
   }, []);
 
   return (
-    <div ref={sectionRef} className="w-full bg-slate-300 py-10 flex flex-col justify-center items-center">
+    <div ref={sectionRef} className="w-full bg-slate-50 py-10 flex flex-col justify-center items-center">
       <div className={`text-center mb-6 ${animate ? 'animate__animated animate__fadeInUp' : ''}`}>
         <h2 className="text-3xl font-semibold">Our Achivement</h2>
         <p className="text-gray-600">Counter to count up to a target number</p>

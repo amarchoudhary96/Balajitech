@@ -21,5 +21,9 @@ module.exports = {
     animation: {
       'spin': 'spin 10s ease infinite',
     },
+    fontFamily: {
+      'sf-pro-text': ['SFProText-Regular', 'sans'], // Replace 'SFProText-Regular' with the actual font name
+    },
+    
   },
 };

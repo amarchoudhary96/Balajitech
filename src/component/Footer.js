@@ -15,7 +15,7 @@ const Footer = () => {
         </p>
       </div>
       <div className="flex flex-col gap-5 sm:w-[20%] w-[90%]   items-start">
-        <h1 className="font-bold text-[25px] sm:w-[40%] w-[90%] ">DESIGN & DEVELOPMENT SOLUTION</h1>
+        <h1 className="font-bold text-[20px] sm:w-[40%] w-full ">DESIGN & DEVELOPMENT SOLUTION</h1>
         <p>
           Website Designing Catalog Designing E-Mailer Designing PSD To HTML
           Designing Logo Designing Core PHP Wordpress Framework
@@ -23,7 +23,7 @@ const Footer = () => {
 
       </div>
       <div className="flex flex-col gap-5 sm:w-[20%] w-[90%]  items-start">
-        <h1 className="font-bold text-[25px]">CONTACT US</h1>
+        <h1 className="font-bold text-[20px]">CONTACT US</h1>
         <p>Address:-
  Near N.D GANGA SCHOOL KHAIRTHAL ALWAR RAJASTHAN (IN)
 Contact No.:-

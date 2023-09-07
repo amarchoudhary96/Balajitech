@@ -21,11 +21,14 @@ const Navbar = () => {
         } `}
       >
         <div className="flex flex-col gap-4 px-8 text-[20px] font-medium py-5 mt-5 relative">
-          <img
+         <Link to={"/home"}> <img
             src="https://balajiwebtech.com/wp-content/uploads/2019/02/Balajiwebtech_mainlogo.png"
             className="sm:w-[250px] w-[100px]"
             alt=""
-          />
+            onClick={() => {
+              setSidebar(false);
+            }}
+          /></Link>
           <Link
             to={"/home"}
             onClick={() => {
@@ -69,9 +72,9 @@ const Navbar = () => {
           >
             <h1>Contact us</h1>
           </Link>
-          <button className="w-[250px] h-[40px] text-white rounded-r-3xl rounded-l-3xl bg-gradient-to-r from-blue-300 to-blue-900 flex items-center justify-center">
+         <Link to={"/contact"}> <button className="w-[250px] h-[40px] text-white rounded-r-3xl rounded-l-3xl bg-gradient-to-r from-blue-300 to-blue-900 flex items-center justify-center">
             Get A Free Quote
-          </button>
+          </button></Link>
           <div className="flex items-center gap-2">
             <img
               src="https://img.lovepik.com/element/45008/4960.png_860.png"
@@ -156,9 +159,9 @@ const Navbar = () => {
           >
             <h1>Contact us</h1>
           </Link>
-          <button className="w-[250px] h-[40px] text-white rounded-r-3xl rounded-l-3xl bg-gradient-to-r from-blue-300 to-blue-900 flex items-center justify-center">
+          <Link to={"/contact"}><button className="w-[250px] h-[40px] text-white rounded-r-3xl rounded-l-3xl bg-gradient-to-r from-blue-300 to-blue-900 flex items-center justify-center">
             Get A Free Quote
-          </button>
+          </button></Link>
         </div>
       </div>
       </div>

@@ -35,9 +35,8 @@ const Services = () => {
   }, []);
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-300 shadow-2xl w-full sm:w-full pt-[100px]">
-      <h1 className='sm:text-4xl text-2xl sm:w-[70%] w-[90%] font-bold flex justify-center'>Serving In Several Industries</h1>
-      <p className='sm:text-lg text-base w-[80%] font-semibold text-center'>For your website to succeed, you required a team of creative designers, website developers. We are serving in several industries like Real Estate, Events Management, Travel & Hospitality, Social Networking, Education, Transport, Finance, Healthcare, E-Commerce, Food & Restaurant, etc.</p>
+    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-50 shadow-2xl w-full sm:w-full sm:pt-[100px] pt-[50px]">
+      <h1 className='sm:text-4xl text-xl sm:w-[70%] w-[90%] font-bold flex justify-center'>Serving In Several Industries</h1>
       <div id="service-section" className="max-w-screen-lg mx-auto p-6">
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-6">
           {items.map(item => (
